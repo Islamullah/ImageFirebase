@@ -21,8 +21,16 @@
             android:layout_height="wrap_content"
             android:src="@mipmap/ic_launcher"
             android:orientation="horizontal"
+            android:visibility="visible"
 
             />
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/progress_circular"
+            android:visibility="visible">
+
+        </ProgressBar>
 
     </androidx.appcompat.widget.LinearLayoutCompat>
 
